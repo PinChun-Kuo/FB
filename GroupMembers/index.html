@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  -->
+    <title>Fetch facebook posts</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
+    <script src="JS/Mustache.js" type="text/javascript"></script>
+    <script src="JS/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+  </head>
+  <body>
+    <div id="page" class="center-block">
+      <div id="fb-root"></div>
+    </div>
+
+    <script id="postsTemplate" type="text/ractive">
+      <input id="Login" type="button" value="Login Facebook" on-click="login"/>
+      <input id="Fetch" type="button" value="Fetch Members" on-click="fetch"/>
+      <div id="userInfo">
+        <h3 class="title">Group Information : </h3>
+        <h5 id="id"></h5>
+        <h5 id="name"></h5>
+        <h5 id="memberNum"></h5>
+      </div>
+      <div id="postsBlock">
+        <h3 class="title">Posts List : </h3>
+        <table class="postsList">
+          <tr>
+            <th class="text-center indexCol">Index</th>
+            <th class="text-center adminCol">Administrator (True or False)</th>
+            <th class="text-left nameCol">Name</th>
+          </tr>
+          {{#each postsTotal:num}}
+            <tr>
+              <td class="text-center indexCol">{{num+1}}</td>
+              <td class="text-center adminCol">{{administrator}}</td>
+              <td class="text-justify nameCol">{{name}}</td>
+            </tr>
+          {{/each}}
+        </table>
+      </div>
+    </script>
+  </body>
+</html>

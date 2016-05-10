@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+/* line 3, ../scss/index.scss */
+body {
+  background: url(../img/bg.jpg) repeat;
+}
+
+/* line 7, ../scss/index.scss */
+#page {
+  width: 1050px;
+}
+/* line 10, ../scss/index.scss */
+#page #fb-root .dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+/* line 27, ../scss/index.scss */
+#page #fb-root #Login, #page #fb-root #Fetch, #page #fb-root #preBtn, #page #fb-root #nextBtn {
+  padding: 5px 10px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  margin: 40px 30px 10px 0;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 37, ../scss/index.scss */
+#page #fb-root .title {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 42, ../scss/index.scss */
+#page #fb-root #userInfo {
+  display: none;
+  font-family: Quicksand;
+}
+/* line 45, ../scss/index.scss */
+#page #fb-root #userInfo h5 {
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+/* line 49, ../scss/index.scss */
+#page #fb-root #userInfo h5 span {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/* line 55, ../scss/index.scss */
+#page #fb-root #postsBlock {
+  display: none;
+  font-family: Quicksand;
+}
+/* line 58, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList {
+  width: 1050px;
+}
+/* line 60, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList th {
+  font-size: 24px;
+}
+/* line 63, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList td {
+  font-size: 20px;
+}
+/* line 66, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .indexCol {
+  padding: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+/* line 71, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .timeCol {
+  padding: 10px;
+  min-width: 200px;
+  max-width: 200px;
+}
+/* line 76, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .likeCol {
+  padding: 10px;
+  min-width: 150px;
+  max-width: 150px;
+}
+/* line 81, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .postsCol {
+  padding: 10px;
+  min-width: 600px;
+  max-width: 600px;
+}

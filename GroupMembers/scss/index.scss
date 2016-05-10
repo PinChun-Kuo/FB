@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+  background: url(../img/bg.jpg) repeat;
+}
+
+#page {
+  width: 950px;
+  #fb-root {
+    #Login, #Fetch {
+      padding: 5px 10px;
+      border: 1px solid #777;
+      border-radius: 6px;
+      margin: 40px 30px 10px 0;
+      font-family: Quicksand;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+    #userInfo {
+      display: none;
+      font-family: Quicksand;
+      h5 {
+        padding-left: 20px;
+        font-size: 20px;
+        span {
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    #postsBlock {
+      display: none;
+      font-family: Quicksand;
+      .postsList {
+        width: 950px;
+        th {
+          font-size: 24px;
+        }
+        td {
+          font-size: 20px;
+        }
+        .indexCol {
+          padding: 10px;
+          min-width: 100px;
+          max-width: 100px;
+        }
+        .adminCol {
+          padding: 10px;
+          min-width: 200px;
+          max-width: 200px;
+        }
+        .nameCol {
+          padding: 10px;
+          min-width: 650px;
+          max-width: 650px;
+        }
+      }
+    }
+  }
+}

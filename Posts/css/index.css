@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+/* line 3, ../scss/index.scss */
+body {
+  background: url(../img/bg.jpg) repeat;
+}
+
+/* line 7, ../scss/index.scss */
+#page {
+  width: 950px;
+}
+/* line 10, ../scss/index.scss */
+#page #fb-root #Login, #page #fb-root #Fetch {
+  padding: 5px 10px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  margin: 40px 30px 10px 0;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 20, ../scss/index.scss */
+#page #fb-root .title {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 25, ../scss/index.scss */
+#page #fb-root #userInfo {
+  font-family: Quicksand;
+}
+/* line 27, ../scss/index.scss */
+#page #fb-root #userInfo h5 {
+  padding-left: 20px;
+  font-size: 20px;
+}
+/* line 30, ../scss/index.scss */
+#page #fb-root #userInfo h5 span {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/* line 36, ../scss/index.scss */
+#page #fb-root #postsBlock {
+  font-family: Quicksand;
+}
+/* line 38, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList {
+  width: 950px;
+}
+/* line 40, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList th {
+  font-size: 24px;
+}
+/* line 43, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList td {
+  font-size: 20px;
+}
+/* line 46, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .indexCol {
+  padding: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+/* line 51, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .timeCol {
+  padding: 10px;
+  min-width: 200px;
+  max-width: 200px;
+}
+/* line 56, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .postsCol {
+  padding: 10px;
+  min-width: 650px;
+  max-width: 650px;
+}
+/* line 61, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}

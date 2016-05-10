@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+/* line 3, ../scss/index.scss */
+body {
+  background: url(../img/bg.jpg) repeat;
+}
+
+/* line 7, ../scss/index.scss */
+#page {
+  width: 950px;
+}
+/* line 10, ../scss/index.scss */
+#page #fb-root #Login, #page #fb-root #Fetch {
+  padding: 5px 10px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  margin: 40px 30px 10px 0;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 20, ../scss/index.scss */
+#page #fb-root .title {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+/* line 25, ../scss/index.scss */
+#page #fb-root #userInfo {
+  display: none;
+  font-family: Quicksand;
+}
+/* line 28, ../scss/index.scss */
+#page #fb-root #userInfo h5 {
+  padding-left: 20px;
+  font-size: 20px;
+}
+/* line 31, ../scss/index.scss */
+#page #fb-root #userInfo h5 span {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/* line 37, ../scss/index.scss */
+#page #fb-root #postsBlock {
+  display: none;
+  font-family: Quicksand;
+}
+/* line 40, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList {
+  width: 950px;
+}
+/* line 42, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList th {
+  font-size: 24px;
+}
+/* line 45, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList td {
+  font-size: 20px;
+}
+/* line 48, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .indexCol {
+  padding: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+/* line 53, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .adminCol {
+  padding: 10px;
+  min-width: 200px;
+  max-width: 200px;
+}
+/* line 58, ../scss/index.scss */
+#page #fb-root #postsBlock .postsList .nameCol {
+  padding: 10px;
+  min-width: 650px;
+  max-width: 650px;
+}

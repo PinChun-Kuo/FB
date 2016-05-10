@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+  background: url(../img/bg.jpg) repeat;
+}
+
+#page {
+  width: 1050px;
+  #fb-root {
+    .dont-break-out {
+      /* These are technically the same, but use both */
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+
+      -ms-word-break: break-all;
+      /* This is the dangerous one in WebKit, as it breaks things wherever */
+      word-break: break-all;
+      /* Instead use this non-standard one: */
+      word-break: break-word;
+
+      /* Adds a hyphen where the word breaks, if supported (No Blink) */
+      -ms-hyphens: auto;
+      -moz-hyphens: auto;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+    }
+    #Login, #Fetch, #preBtn, #nextBtn{
+      padding: 5px 10px;
+      border: 1px solid #777;
+      border-radius: 6px;
+      margin: 40px 30px 10px 0;
+      font-family: Quicksand;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+    #userInfo {
+      display: none;
+      font-family: Quicksand;
+      h5 {
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 28px;
+        span {
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    #postsBlock {
+      display: none;
+      font-family: Quicksand;
+      .postsList {
+        width: 1050px;
+        th {
+          font-size: 24px;
+        }
+        td {
+          font-size: 20px;
+        }
+        .indexCol {
+          padding: 10px;
+          min-width: 100px;
+          max-width: 100px;
+        }
+        .timeCol {
+          padding: 10px;
+          min-width: 200px;
+          max-width: 200px;
+        }
+        .likeCol{
+          padding: 10px;
+          min-width: 150px;
+          max-width: 150px;
+        }
+        .postsCol {
+          padding: 10px;
+          min-width: 600px;
+          max-width: 600px;
+        }
+      }
+    }
+  }
+}
